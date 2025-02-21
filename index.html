@@ -22,8 +22,8 @@ t<!DOCTYPE HTML>
 
 							<!-- Header -->
 								<header id="header">
-									<p><strong>Health Companion case Study by </strong>Dominique Proulx - 40177566</p>
-									<p><strong>Project Presented to </strong> Dr. Hakim Mellah</p>
+									<p><strong>Health Companion case Study </strong> <br> by </strong>Dominique Proulx - 40177566</p>
+									<p><strong>Presented to </strong> Dr. Hakim Mellah</p>
 									<!-- <ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -60,34 +60,117 @@ t<!DOCTYPE HTML>
 										<article>
 											<span class="icon fa-gem"></span>
 											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>The case study and it's reseach</h3>
+												<p>Living with a chronic disease can be challenging. The Health companion app aims to alleviate some of the strain of managing medicines and doctor's appointments for patients with chronic illnesses. This case study describes the UX/UI design approach for creating such an app. To understand what our target audience requires, we must first identify who they are. The research section of this case study focused on determining who the target audience is and what impairments or obstacles individuals with chronic diseases would face when using the health companion app. 
+												</p>
+												<ul class="actions">
+													<li><a href="research.html" class="button big">See the Research</a></li>
+												</ul>
 											</div>
 										</article>
 										<article>
 											<span class="icon solid fa-paper-plane"></span>
 											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>Personas and their journey</h3>
+												<p>The research findings led to the creation of three personas: Eleanor, who lives with dementia and osteoporosis. Denise, her daughter and primary caretaker, and Thomas, a married man who lives with diabetes. All three persona will be taken along a user journey, sometimes using only a subset of the functionalities of the app, to discover their potential reaction and feelings towards the Health companion app. </p><ul class="actions">
+													<li><a href="personas.html" class="button big">See the Personas</a></li>
+													<li><a href="userjouneys.html" class="button big">See the User Journeys</a></li>
+												</ul>
 											</div>
+											
 										</article>
 										<article>
 											<span class="icon solid fa-rocket"></span>
 											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>Two modes</h3>
+												<p>The Health companion app, as I envisioned it, may be configured in two modes: Self-Care mode, which provides users with a more comprehensive interface and simple access to modification menus. And the Caretaker mode, which provides the user with a simpler interface after the app has been configured by the caretaker to eliminate distractions and limit confusion.</p>
 											</div>
 										</article>
 										<article>
 											<span class="icon solid fa-signal"></span>
 											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>Notes on features</h3>
+												<p>In addition to medication reminders and medical appointments, the app offers a feature that calls emergency services and displays a list of medications that the user has taken on the screen. There were also intentions to include reminders to monitor blood pressure and blood sugar to the reminders. Since people with chronic diseases are more prone to depression and mood disorders, a mood tracker feature was added, the report can be added the to medication intake log.</p>
 											</div>
 										</article>
 									</div>
 								</section>
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2>Usability goals and test</h2>
+	</header>
+	<div class="features">
+		<article>
+			<div class="content" style="width : 100%">
+				<p>In addition to medication reminders and medical appointments, the app offers a feature that calls emergency services and displays a list of medications that the user has taken on the screen. There were also intentions to include reminders to monitor blood pressure and blood sugar to the reminders.</p>
+				<h3>Effectiveneess </h3>
+				<ul>
+					<li>Caregivers are often very busy people and have a lot to take care of. People with chronic diseases might be tired or not have a lot of time to put to setup the app.  Setting up the app for a loved one should not take more than 8 minuutes once the list of pills is acquired through the medical professional.  If it takes too much time to set up the app, the users might never do it and stay with their current routine ,even if it means possibly skipping doses.
+	</li><li> Adding a doctors appointment should take no more than 6 clicks. </li><li>Adding a pill should take no more than 4 clicks. </li><li>Calling emergency services should be a 1 click task. </li><li>Snoozing or ackowledging that you have taken your pill should be a 1 click task. </li>
+				</ul>
 
+				<h3>Safety</h3>	This is very important as skipping a dose or taking too much medication can lead to serious health problems. 
+				<ul><li>The buttons for "dose taken" and "snooze" should be very clear from one another.
+				</li><li>  In the last dose taken , users can modify the time they have taken the dose if a mistake is made.</li>				<li>The emergency call can be cancelled. </li></ul>
+
+
+				<h3>Utility</h3>
+				<h4>App Modes</h4>
+				<ul><li>he app will have two modes: Simple and "Self care mode" to differentiate the number of tabs available</li>	
+					<li> The app has an Emergency tab that calls the Emergency and shows the list of medications on the screen.</li>
+				<li>The app offers the option to add a  daily mood tracker where the user can click on an icon to log their mood.</li></ul>
+				<h4>Medication and monitoring reminders</h4>
+				<ul>
+					<li>Users must have a tab where they can update their medication list, set a schedule which can include a time-between-pills constraint. The user can also set a discontinue date for the alert, for temporary pills such as antibiotics.</li>
+					<li>The app should open a foreground alert page when it's time to take a pill.</li>
+					<li>In simple mode, the app should send an email to the user or the caregiver when a pill is due for a refill.</li>
+					<li>In caregiver mode, the app sends a notification to the user, and the update medication tab has a button to call the pharmacy to ask for a refill.</li>
+					<li>The app should let the user modify the time they took the pill.</li>
+					<li>The app allows reminders to take blood sugar and blood pressure readings and keeps a log of them.</li>
+				  </ul>
+				  <h4>Doctor Information and Appointment </h4>
+				  <ul>
+					<li>The app offers a Doctor's information tab where more than one specialist can be added with their information.</li>
+					<li>The app lets the user generate a report for the doctor with the pill list and the logs. The report highlights missed doses.</li>
+					<li>In the doctor's tab, there is a button to add a new appointment. The appointment is added to the user's Google Calendar.</li>
+				  </ul>
+				  <h3>Learnability</h3>
+				  <ul><li>A single run through the app with the user is enough for the user to be able to start using the app.</li>
+				<li>Update menus are in the same format as the setup , the user does not have to learn the interface again</li></ul>
+				<h3>Memorability</h3>
+				  <ul><li>The App buttons are intuitive and the goal of each tab is clear.</li>
+				<li>All the buttons that can be pressed are the same color.</li></ul>
+
+
+				<h2>Usability Test and user tasks</h2>
+				<p>To evaluate whether the Health Companion app meets the previous usability goals, the following test will be performed. The tests will be presented to a sample of people, and their interactions with the app will be recorded.If some people fail any of the tests or if they voice annoyance, confusion or frustration, the result of the test and the comments will be studies and analyzed to improve the design.</p>
+				<ul><li>Effectiveness: Users can setup the app under 10 minutes.</li>
+					<li>Effectiveness: User can book a doctor's appointment under 7 clicks. </li>
+					<li>Effectiveness : User can log a pill in 1 click. </li>
+					<li>Safety: When clicking 10 times, the user did not click the wrong button betwene "snooz" and "pill taken"  </li>
+					<li>Safety: The emergency call can be cancelled with 1 click </li>
+					<li>Safety: User can go back and modify the last time a pill was taken.</li>
+					<li>Utility: If the user was setup in caretaker mode, it shows the simplified homescreen </li>
+					<li>Utility: If the user was setup in self care mode, it shows the normal homescreen </li>
+					<li>Utility: The daily mood tracker prompts the user once per day if they enabled thefeature during seup. </li>
+					<li>Utility: The daily mood tracker prompts the user once per day if they enabled thefeature during seup. </li>
+					<li>Utility: User has a tab where they can update their medication list, set a schedule which can include a time between pills constraint.</li>
+					<li>Utility: The user can set a end date for the alert for temporary pills such as antibiotics.</li>
+					<li>Utility: The app opens a prompt the user in the homescreen when it's time to take a pill.</li>
+					<li>Utility: The app sends an email to the user or the caregiver when a pill is due for a refill.</li>
+					<li>Utility: The user can modify the time they took the pill with one click</li>
+					<li>Utility: The app prompts for reminders to take blood sugar and blood pressure. The app keeps a log of them and a report can be made</li>
+				
+				
+				</ul>
+				<h2>Analysing the feedback</h2>
+				<p> After the usability test is conducted, users will be </p>
+			</div>
+		</article>
+		
+	</div>
+</section>
 							<!-- Section -->
 								<section>
 									<header class="major">
@@ -95,53 +178,11 @@ t<!DOCTYPE HTML>
 									</header>
 									<div class="posts">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
+											<div class="content">
+												<p>In addition to medication reminders and medical appointments, the app offers a feature that calls emergency services and displays a list of medications that the user has taken on the screen. There were also intentions to include reminders to monitor blood pressure and blood sugar to the reminders.</p>
+											</div>
 										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
+										
 									</div>
 								</section>
 
@@ -197,47 +238,11 @@ t<!DOCTYPE HTML>
 									</ul>
 								</nav>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-										<li class="icon solid fa-phone">(000) 000-0000</li>
-										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
-									</ul>
-								</section>
+							
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+									<p class="copyright">  Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 								</footer>
 
 						</div>
