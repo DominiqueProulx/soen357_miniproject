@@ -1216,6 +1216,7 @@ input[type="radio"] + label:before {
   border: 0;
   display: inline-block;
   position: relative; }
+  .logo {height: 50%; width: 50%}
   .image img {
     border-radius: 0.375em;
     display: block; }
@@ -1424,9 +1425,9 @@ ul.pagination {
         background-color: #4393C3;
         color: #ffffff !important; }
         ul.pagination li > .page.active:hover {
-          background-color: #f67878; }
+          background-color: #F6AE2D; }
         ul.pagination li > .page.active:active {
-          background-color: #f45c5c; }
+          background-color: #F6AE2D; }
     ul.pagination li:first-child {
       padding-right: 0.75em; }
     ul.pagination li:last-child {
@@ -1561,7 +1562,7 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #f67878; }
+      background-color: #F6AE2D; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
